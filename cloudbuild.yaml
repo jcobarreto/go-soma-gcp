@@ -6,4 +6,4 @@ steps:
 
 - id: "Executando o app soma"
   name: 'gcr.io/cloud-builders/docker'
-  args: ['run','go-soma-gcp']
+  args: ['run','gcr.io/go-gcp-279221/go-soma-gcp']
