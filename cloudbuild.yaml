@@ -4,6 +4,6 @@ steps:
 #  name: 'gcr.io/$PROJECT_ID/docker-compose:1.25.5'
 #  args: ['-f','docker-compose.cloudbuild.yaml','up','-d']
 
-- id: "Rodando app soma"
+- id: "Executando o app soma"
   name: 'gcr.io/cloud-builders/docker'
-  args: ['build','.']
+  args: ['run','go-soma-gcp']
